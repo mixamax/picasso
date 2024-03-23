@@ -1,0 +1,21 @@
+.whole-post_container {
+    margin: 5rem auto 0;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whole-post_title {
+    color: blueviolet;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.whole-post_content {
+    color: black;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.whole-post_content::first-letter {
+    color: black;
+    font-weight: bold;
+}

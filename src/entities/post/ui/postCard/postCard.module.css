@@ -1,0 +1,17 @@
+.post {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    padding-right: 1rem;
+    align-items: center;
+    height: 5rem;
+}
+.post-text {
+    box-sizing: border-box;
+    padding: 2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1rem;
+    flex: 70%;
+}

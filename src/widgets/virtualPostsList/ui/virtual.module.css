@@ -1,0 +1,27 @@
+.virtual_container {
+    margin: 0 auto;
+    margin-top: 3rem;
+    height: 35rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    border-radius: 5px;
+    border: solid 1px;
+    overflow: "auto";
+}
+
+.virtual_container::-webkit-scrollbar {
+    width: 8px; /* ширина всей полосы прокрутки */
+}
+
+.virtual_container::-webkit-scrollbar-track {
+    background: grey; /* цвет зоны отслеживания */
+    border-radius: 0 4px 4px 0;
+    /* margin: 0.1rem 0; */
+}
+
+.virtual_container::-webkit-scrollbar-thumb {
+    background-color: blueviolet; /* цвет бегунка */
+    border-radius: 4px;
+}
